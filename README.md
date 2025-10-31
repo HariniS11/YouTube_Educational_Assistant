@@ -20,7 +20,6 @@ A Streamlit-powered web app for transcribing, summarizing, and querying YouTube 
 - **Embedding Model**: [BAAI/bge-small-en-v1.5](https://huggingface.co/BAAI/bge-small-en-v1.5) (local)
 - **Semantic Search**: [FAISS](https://github.com/facebookresearch/faiss)
 - **LLM QA/Summarization**: [LLaMA-3.1-8B-Instant](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instant)
-- **Experiment Tracking/MLOps**: [MLflow](https://mlflow.org/)
 - **Other**: NumPy, Requests
 
 ---
@@ -49,7 +48,6 @@ A Streamlit-powered web app for transcribing, summarizing, and querying YouTube 
     - Obtain Groq and LLM API keys and set them as environment variables:
         ```
         GROQ_API_KEY=your_api_key
-        LLAMA_API_KEY=your_api_key
         ```
 
 ---
