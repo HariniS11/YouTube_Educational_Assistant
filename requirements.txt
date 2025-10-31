@@ -1,0 +1,26 @@
+# --- Core ---
+streamlit          # frontend for user interface
+requests           # making API calls (Hugging Face, etc.)
+tqdm               # progress bars for long tasks
+
+# --- YouTube & Audio ---
+pytube             # download YouTube video/audio
+pydub              # audio processing (convert mp4 → mp3/wav)
+
+# --- Whisper (Transcription) ---
+transformers       # Hugging Face models
+torch              # backend for running Whisper + LLM models
+torchaudio         # audio loading for Whisper
+sentencepiece      # tokenizer support for HF models
+
+# --- Embeddings & Vector Search ---
+faiss-cpu          # vector database for storing & searching embeddings
+numpy              # required by FAISS
+
+# --- NLP / LLM for Q/A ---
+huggingface_hub    # connect to Hugging Face with API key
+accelerate         # optimize model inference
+
+# --- Optional (but useful) ---
+python-dotenv      # store Hugging Face API key safely in .env file
+pip install -U sentence-transformers
